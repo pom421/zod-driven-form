@@ -1,0 +1,20 @@
+{
+    "name": "zod-driven-form",
+    "license": "MIT",
+    "version": "0.0.1",
+    "main": "dist/index.cjs",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "tsup index.ts --format cjs,esm --dts",
+        "lint": "tsc",
+        "release": "pnpm run build && changeset publish"
+    },
+    "devDependencies": {
+        "@changesets/cli": "^2.26.2",
+        "changeset": "^0.2.6",
+        "tsup": "^7.2.0",
+        "typescript": "^5.2.2"
+    }
+}
