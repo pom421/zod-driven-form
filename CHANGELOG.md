@@ -1,5 +1,11 @@
 # zod-driven-form
 
+## 1.0.1
+
+### Patch Changes
+
+- Update peer dep versions.
+
 ## 1.0.0
 
 ### Major Changes
